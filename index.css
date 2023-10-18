@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+}
+.score-board {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+
+h4 {
+    display: flex;
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.increment-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.increment-btn {
+    width: 45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    background-color: #1B244A;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+}
